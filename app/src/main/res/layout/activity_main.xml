@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.my.greendao_search.MainActivity">
+
+    <EditText
+        android:id="@+id/ed_MainAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入要查询的内容" />
+
+    <Button
+        android:id="@+id/btn_addData_MainAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ed_MainAct"
+        android:text="添加数据" />
+
+    <Button
+        android:id="@+id/btn_addMoreData_MainAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_addData_MainAct"
+        android:text="添加多条数据" />
+
+    <Button
+        android:id="@+id/btn_upDataOneData_MainAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_addMoreData_MainAct"
+        android:text="修改一条数据" />
+
+    <Button
+        android:id="@+id/btn_delOneData_MainAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_upDataOneData_MainAct"
+        android:text="删除单条数据" />
+
+    <Button
+        android:id="@+id/btn_queryOneOrMore_MainAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_delOneData_MainAct"
+        android:text="查询单行/多行记录" />
+
+    <Button
+        android:id="@+id/btn_QueryBuilder_MainAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_queryOneOrMore_MainAct"
+        android:text="使用QueryBuilder查询" />
+
+    <Button
+        android:id="@+id/btn_delAllData_MainAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_QueryBuilder_MainAct"
+        android:text="删除表内所有数据" />
+
+    <!--<ListView-->
+    <!--android:id="@+id/listView_MainAct"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/ed_MainAct" />-->
+
+</RelativeLayout>
